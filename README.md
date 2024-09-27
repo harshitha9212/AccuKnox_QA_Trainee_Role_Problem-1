@@ -3,10 +3,10 @@
 # Docker login command
 
     Log in to Docker Hub or your container registry
-    docker_login_cmd = [
-        "docker", "login",
-        "-u", "<your-docker-username>",
-        "-p", "<your-docker-password>"]
+    docker_login = [
+        docker login
+        -u your-docker-username
+        -p, your-docker-*********]
 
 
     
